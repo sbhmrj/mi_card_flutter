@@ -1,0 +1,33 @@
+name: mi_card_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  google_fonts: ^2.2.2
+
+flutter:
+  uses-material-design: true
+  assets:
+   - images/
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: AlegreyaSC
+      fonts:
+        - asset: fonts/AlegreyaSC-Regular.ttf
+
+    
